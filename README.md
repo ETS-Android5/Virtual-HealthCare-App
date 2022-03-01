@@ -1,4 +1,4 @@
-> ## Rubix-22-1-WEBI-2B
+
 <h1 align="center"> Virtual Health Assistant </h1>
   
 The COVID-19 pandemic has dramatically changed how outpatient care is delivered in health care practices. 
