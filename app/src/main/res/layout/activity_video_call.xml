@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#fff"
+    tools:context=".VideoCall">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="384dp"
+        android:layout_height="248dp"
+        android:src="@drawable/videocall"
+        app:layout_constraintBottom_toTopOf="@+id/id_room"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-2dp" />
+
+    <EditText
+        android:id="@+id/id_room"
+        android:layout_width="299dp"
+        android:layout_height="46dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/rounded_edittext2"
+        android:ems="10"
+        android:hint="Enter Meet Code ..."
+        android:paddingLeft="20dp"
+        android:textColor="#fff"
+        android:textColorHint="#707070"
+        app:layout_constraintBottom_toTopOf="@+id/btn_join"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.883" />
+
+    <Button
+        android:id="@+id/btn_join"
+        android:layout_width="260dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="252dp"
+        android:background="@drawable/rounded_btn"
+        android:text="JOIN"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+=======
+    tools:context=".VideoCall">
+
+>>>>>>> origin/master
+</androidx.constraintlayout.widget.ConstraintLayout>
